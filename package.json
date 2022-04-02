@@ -1,0 +1,8 @@
+{
+  "name": "MastersBettingApp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/adrianpearman/MastersBettingApp.git",
+  "author": "Adrian Pearman <adrianpearman12@gmail.com>",
+  "license": "MIT"
+}
