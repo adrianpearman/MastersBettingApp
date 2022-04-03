@@ -1,8 +1,18 @@
 {
-  "name": "MastersBettingApp",
-  "version": "1.0.0",
-  "main": "index.js",
-  "repository": "https://github.com/adrianpearman/MastersBettingApp.git",
-  "author": "Adrian Pearman <adrianpearman12@gmail.com>",
-  "license": "MIT"
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "cors": "^2.8.5",
+    "dot-env": "^0.0.1",
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "concurrently": "^7.1.0",
+    "nodemon": "^2.0.15"
+  },
+  "scripts": {
+    "start": "cd ./backend; node server.js",
+    "dev-server": "cd ./backend; nodemon server.js",
+    "dev-frontend": "cd ./frontend; yarn start",
+    "dev": "concurrently \"yarn run dev-server\" \"yarn run dev-frontend\""
+  }
 }
